@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+<center><h1 style="color:grey;">URL EXTRACTER</h1></center>
+<form method="post">
+{% csrf_token %}
+<input style=" position: absolute;
+    width: 500px;
+    height: 30px;
+    top: 50%;
+    left: 50%;
+    margin-left: -250px; /* margin is -0.5 * dimension */
+    margin-top: -25px; " cols="50" rows="2" name="webpage" type="text">
+<button style=" position: absolute;
+    width: 100px;
+    height: 40px;
+    top: 60%;
+    left: 50%;
+    margin-left: -50px; /* margin is -0.5 * dimension */
+    margin-top: -25px;  " type="submit">Extract</button>
+</form>
+</html>
