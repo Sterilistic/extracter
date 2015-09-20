@@ -2,7 +2,7 @@ from django.conf.urls import patterns, include, url
 from django.contrib import admin
 from polls import urls as polls_urls
 from home import urls as home_urls
-import home.views
+import polls.views
 admin.autodiscover()
 
 

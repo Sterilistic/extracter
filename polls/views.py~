@@ -7,7 +7,7 @@ import urllib
 import lxml.html
 from django.core.servers.basehttp import FileWrapper
 
-def index(request):
+def home(request):
     if request.method == 'POST':
         para=request.POST['webpage']
         connection = urllib.urlopen(para)
